@@ -1,0 +1,54 @@
+1. What do you think about web services? State some of the communication channels that are available for a web service.
+Ans: Web services are web components that allow clients and servers to exchange data. A web component or software program accessed through the Internet is a web service. It is mostly used to communicate with web-based applications through XML communication ideas. For example, we can use the relevant web service's URL if we wish to utilize Google Maps to find a specific location. To do so, we will need to provide the necessary inputs.
+
+HTTP / POST: The HTTP / POST protocol sends data between clients securely.
+HTTP / GET: Clients can partially display the data sent to the browser's address bar using the HTTP / GET protocol.
+SOAP: SOAP is a protocol for securely transmitting private data.
+
+2. State your understanding of SoapUI automation.
+SOAP or Simple Object Access Protocol is a protocol that uses XML to interact with web applications. With the help of XML-based content, it can make communication happen between two client machines across any network. SoapUI is a cross-platform functional testing solution that is free and open-source  SOAP UI automation refers to the use of SOAP UI software for automation testing and implementation.
+
+3..What are the advantages of using SoapUI?
+It can generate reports for the tests performed using it
+
+4. How does SoapUI structure functional tests?
+It has the capability to generate reports for the tests performed using it.
+
+Functional tests are organized using three layers in SOAP UI:
+ I) Test Suite: A Test Suite is a collection of test cases that are used to group functional tests into logical units.
+II) Test Case: A Test Case is a collection of test procedures used to evaluate a single feature of your services. Any number of Test Cases can be added to test suites.
+III)Test Steps: In SOAPUI, Test Steps are the "building blocks" of functional tests. They work together to create Test Cases, which determine the service's execution flow.
+
+5.  In SoapUI, what is the most basic approach for automating web services?
+The most basic approach for automating web services in SoapUI is as follows:
+
+Make a project and include the WSDL (Web Service Description Language) file in it.
+Include custom programming/validation utilising Groovy steps by adding test suites, test cases, and test cases in that order.
+If you are using external data sources, add assertions if necessary, and then RUN.
+
+6.State and explain the default properties in SOAPUI.
+SOAPUI provides three layers of properties by default:
+
+Project level default or custom properties: The user can add any number of properties at the project level, and it can be opened from any test step in any test case under any test suite.
+Test Suite level default or custom properties: Any number of characteristics can be appended at the test suite level, and they can be utilised from any test step in any test case under this test suite.
+Test Step level default or custom properties: Users can add any number of properties to a test case at the test case level, and these properties can be utilised in any test step from this test case.
+
+7.State a few important functionalities of SOAP UI.
+i) It builds a new project-based just on the web service WSDL link; it retrieves all method information and imports it automatically.
+ii) It generates test cases from the web method request itself.
+iii) It allows you to organise your test cases into test suites.
+iv) It has various features to help with testing coverage and requirements management.
+
+8. State the steps to add assertions in SoapUI.
+On receiving a response to a request, do the following steps:
+
+Create a project and include the WSDL.
+Include a test suite, a test case, and a set of test steps.
+Execute the request
+Now to add assertions, perform the following steps:
+
+Go to the top of the log tabs and click Add Assertions.
+Configure the assertions according to the data and type needed.
+
+9. What do you understand about WSDL?
+WSDL: WSDL is an acronym for Web Services Description Language he Web Services Description Language (WSDL) is an XML-based interface description language for specifying a web service's capabilities
